@@ -1,5 +1,5 @@
 const shuffleArray = (array) => {
-  return [...[array].sort(() => Math.random() - 0.5)];
+  return [...array].sort(() => Math.random() - 0.5);
 };
 export const fetchQuizData = async (difficulty, amount) => {
   const url = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;

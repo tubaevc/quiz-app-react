@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import * as api from "../../api/api";
 import QuestionCard from "../../components/questionCard";
-
+import Modal from "../../components/modal";
 export default function Quiz() {
   const { difficulty, amount } = useParams();
   const [score, setScore] = useState(0);
@@ -18,15 +18,20 @@ export default function Quiz() {
   }, []);
   console.log(questionsData);
   return (
-    <div>
-      <QuestionCard
-        questionsData={questionsData}
-        score={score}
-        setScore={setScore}
-        count={count}
-        modal={modal}
-        setModal={setModal}
-      />
+    <div className="w-full h-screen bg-[#163020] flex items-center justify-center">
+      {modal ? (
+        <Modal score={score} />
+      ) : (
+        <QuestionCard
+          questionsData={questionsData}
+          score={score}
+          setScore={setScore}
+          count={count}
+          setCount={setCount}
+          modal={modal}
+          setModal={setModal}
+        />
+      )}
     </div>
   );
 }
