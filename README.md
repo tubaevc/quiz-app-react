@@ -1,5 +1,5 @@
-![trivia1](https://github.com/tubaevc/quiz-app-react/assets/100070917/fdd9a3c9-090e-42b6-90c1-cc8966b14b40)
-![trivia2](https://github.com/tubaevc/quiz-app-react/assets/100070917/fe4e97aa-6a85-43ca-9f2c-bb5c843ccb66)
+![trivia1](https://github.com/tubaevc/quiz-app-react/assets/100070917/b89528d7-ed43-4725-a60c-d55b2cce85d1)
+![trivia2](https://github.com/tubaevc/quiz-app-react/assets/100070917/d6a0558b-828a-429f-aae3-bb0ea6e67da3)
 ![trivia3](https://github.com/tubaevc/quiz-app-react/assets/100070917/ec8f5828-fcda-4fbe-969f-059fff4d776e)
 # React + Vite
 
